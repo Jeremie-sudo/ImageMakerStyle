@@ -1,5 +1,5 @@
 # ImageMakerStyle
-Cette une application Web qui permet de donner un style( Principalement "Filter ") à une image. 
+Cette une application Web qui permet de donner un style( Principalement "Filter ") à une image. <br>
 L'utilisation est treès simple
 1- vous aller ouvrir le ficher inex.html que votre navigateur préférer.
 2-Vous modifer l'image intégerer à l'application
