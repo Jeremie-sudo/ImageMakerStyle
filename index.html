@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="index.css">
+	<title> Image Maker Style</title>
+</head>
+<body>
+	    <div class="container">
+	    	  <h3 style="color: white; text-align: center;">IMAGE MAKER STYLE</h3>
+		    	<div class="framework">
+		    		<div class="setter">
+		    			<div class="ot1">
+		    				<h4>Gryscale(en %):</h4>
+		    				<input type="range" id="gryscale">
+
+		    			</div>
+		    			<div class="ot1">
+		    				<h4>Sepia(en %):</h4>
+		    				<input type="range" id="Sepia">
+
+		    			</div>
+		    			<div class="ot1">
+		    				<h4>Brightness(en %):</h4>
+		    				<input type="range" id="brightness">
+
+		    			</div>
+		    			<div class="ot1">
+		    				<h4>Contrast(en %):</h4>
+		    				<input type="range" id="contrast">
+
+		    			</div>
+		    			<div class="ot1">
+		    				<h4>Hue rotation(en %)</h4>
+		    				<input type="range" id="hrotation">
+
+		    			</div>
+		    			
+		    		</div>
+		    		<div class="render">
+		    			 <img src="img.jpg" alt="">
+		    		</div>
+		    		<div class="gntcode">
+		    			<h4 style="color: white; text-align: center;">CODES</h4>
+                       <div style="background:#5b5b72; height:150px; padding: 0.5rem;">
+                       	  #imgMkSty { 
+                       	  	<br>
+                       	  	   filter:<span id="gry"></span><span id="sp"></span><span id="br"></span><span id="cs"></span><span id="hr"></span> 
+                       	  	   <br>
+                       	  }
+                       </div>
+		    		
+		    	  </div>
+		    	</div>
+		    	
+	    </div>
+	    <script src="index.js">	</script>
+</body>
+</html>

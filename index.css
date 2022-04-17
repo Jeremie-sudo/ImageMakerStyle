@@ -1,0 +1,39 @@
+body{
+	display: flex;
+	justify-content: center;
+}
+.container{
+	display: grid;
+	height:12%;
+	width:60%;
+	background:#2d1e6d;
+	border-radius:12px;
+	padding: 1rem;
+}
+.framework{
+	display: grid;
+	grid-gap:0.5rem;
+	grid-template-columns: 1fr 2fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: 
+	"ots render "
+	"ots code "
+	;
+}
+.setter {
+   grid-area:ots;
+}
+.setter .ot1{
+     color: white;
+}
+ img{
+ 	padding: 0.5rem;
+	grid-area: render;
+	margin-right:1rem;
+	width: 100%;
+	filter:var(--gryscale)var(--sepia)var(--brightness)var(--contrast)var(--huerotate);
+}
+.gntcode{
+	grid-area: code;
+	width: 100%;
+}
